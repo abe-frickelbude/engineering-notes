@@ -1,0 +1,11 @@
+
+# IDEA project files
+.idea/
+target/
+**/*.iml
+
+# VS Code
+.vscode
+
+# Misc files
+.DS_Store
