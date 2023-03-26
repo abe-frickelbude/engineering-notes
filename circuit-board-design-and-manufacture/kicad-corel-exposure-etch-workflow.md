@@ -96,3 +96,29 @@ The exported configuration is correct `AS-IS` if printed directly and put with t
   * When using e.g. a pro-sumer grade UV exposure box with ~ 32W output (4x 
     UV CCFL lamps, 8W per lamp) together with the aforementioned tracing 
     paper as medium, the minimum viable exposure time appears to be ~30 seconds.
+  * The optimal exposure time tends towards 60-70 seconds
+
+## Developing
+
+* Use of sodium metasilicate is advisable as it is significantly less aggressive
+  than e.g. NaOH and has a much lower probability of over-developing the photoresist.
+* The developer concentration appears to be **crucial** to the process, higher 
+  concentrations tend to strip the photoresist much more quickly and will destroy
+  the artwork given little time.
+  * Assuming the `SENO 4006` developer concentrate, the recommended proportion
+    is 1:14 (i.e. 1 part developer, 14 parts cold water). In reality, this is 
+    too aggressive, and the more benign and controllable proportion is ~ 1:20
+  * With the above concentration, development time for a ~60 second exposure
+    is approximately 60 seconds 
+  * 
+
+## Etching
+
+* Use an aerated tank - aeration appears to be much more important for the
+  etching process than the mere temperature of the etching solution (mostly
+  because of mechanical agitation)
+* Use sodium persulfate as etching reagent - don't bother with FeCL3 as it just
+  makes a mess...
+* Recommended proportion is `200 grams` of sodium persulfate per `1 liter` of water
+* The optional solution temperature is ~ 50 C, but lower temperatures will
+  work as well, but will result in longer etching times.
