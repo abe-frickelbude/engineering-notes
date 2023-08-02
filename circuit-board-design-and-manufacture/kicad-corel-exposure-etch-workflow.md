@@ -117,8 +117,12 @@ The exported configuration is correct `AS-IS` if printed directly and put with t
 * Use an aerated tank - aeration appears to be much more important for the
   etching process than the mere temperature of the etching solution (mostly
   because of mechanical agitation)
-* Use sodium persulfate as etching reagent - don't bother with FeCL3 as it just
+* Use sodium persulfate (Na2S2O8) as etching reagent - don't bother with FeCL3 as it just
   makes a mess...
 * Recommended proportion is `200 grams` of sodium persulfate per `1 liter` of water
 * The optional solution temperature is ~ 50 C, but lower temperatures will
   work as well, but will result in longer etching times.
+* Check etching progress regularly and **do not** over-etch the a board - the 
+  above concentration is generally sufficient to complete the process in ~15-20 minutes
+  in a well-aerated tank. Excessive etch times will at some point start 
+  etching through the relatively fragile photoresist layer.
